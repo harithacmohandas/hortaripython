@@ -11,8 +11,6 @@ def check():
 		for j in range(i+1,8):
 			if(a[i]==a[j]):
 				count=count+1
-			i=i+2
-			j=j+2
 			else:
 				count=count
 	print("there are",count,"duplicates in this array")
